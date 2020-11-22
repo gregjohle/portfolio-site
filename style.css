@@ -20,4 +20,10 @@ main{
     background-image: url(images/milky-way.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+}
+
+main img {
+    align-content: center;
+    border-radius: 50%;
 }
