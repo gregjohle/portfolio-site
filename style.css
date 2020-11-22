@@ -1,14 +1,11 @@
 * {
     box-sizing: border-box;
-    background-image: url(images/milky-way.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 header{
     background-color: rgb(33, 36, 65);
     color: rgb(132, 165, 204);
-    align-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -19,3 +16,8 @@ header h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main{
+    background-image: url(images/milky-way.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
