@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
-    background-image: image(images/milky-way.jpg);
+    background-image: url(images/milky-way.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header{
