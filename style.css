@@ -1,8 +1,11 @@
 /* this is to force border-box across the whole page*/
+
 * {
     box-sizing: border-box;
 }
+
 /* setting the colors, font, and sizing of the header */
+
 header{
     background-color: #262626;
     color: #F1FAEE;
@@ -20,7 +23,9 @@ header h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30pt;
 }
+
 /* sets a fixed background from the main section down */
+
 main{
    background-image: url(images/concrete.jpg);
    background-repeat: no-repeat;
@@ -28,7 +33,9 @@ main{
    background-size: cover;
    padding: 50px;
 }
+
 /* centering the image */
+
 .center {
     display: block;
     margin-left: auto;
@@ -37,7 +44,9 @@ main{
     margin-bottom: 50px;
     border-radius: 50px;
 }
+
 /* Setting the position, size, and font of the text under the image */
+
 .main-text {
     margin-left: auto;
     margin-right: auto;
@@ -55,7 +64,9 @@ div.main-text h3{
     font-size: 18pt;
     color: #000000;
 }
+
 /* setting the position and spacing of the icon links */
+
 .row{
     display: flex;
     justify-content: center;
@@ -75,29 +86,38 @@ div.main-text h3{
 .social{
     display: block;
 }
+
 /* Setting background color, font size and color of the middle block */ 
+
 .top-content {
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #262626;
     color: #F1FAEE;
     padding: 50px;
+    height: 350px;
 }
+
 /* used to center text within the bottom two blocks */
+
 .wrapper{
     text-align: center;
     width: 600px;
     margin: 0 auto;
     font-size: 18pt;
 }
+
 /* used to bring numbers and text closer together at the bottom of the contact section */
+
 .list {
     text-align: center;
     font-size: 18pt;
     width: 100px;
     margin: 0 auto;
 }
+
 /* setting the background color, font, font size, font color, etc. of the About and Contact sections */
+
 article{
     display: block;
     background-color: #F1FAEE;
@@ -111,7 +131,9 @@ article{
 .contact{
     padding-top: 1px;
 }
+
 /* simple footer */
+
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F1FAEE;
@@ -119,7 +141,9 @@ footer{
     padding: 50px;
     text-align: center;
 }
+
 /* formating link colors */
+
 a:link{
     color: #3587A4;
 }
