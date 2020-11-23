@@ -132,6 +132,11 @@ article{
     padding-top: 1px;
 }
 
+div.map p{
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* simple footer */
 
 footer{
@@ -156,6 +161,6 @@ a:hover{
     color: #1E2019;
 }
 
-a:active{
+a:active {
     color: #F1FAEE;
 }
