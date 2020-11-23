@@ -3,13 +3,15 @@
 }
 
 header{
-    background-color: rgb(33, 36, 65);
-    color: rgb(132, 165, 204);
+    background-color: #262626;
+    color: #F1FAEE;
     text-align: center;
+    padding: 50px;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 72pt;
 }
 
 header h2 {
@@ -17,13 +19,96 @@ header h2 {
 }
 
 main{
-    background-image: url(images/milky-way.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   background-image: url(images/concrete.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   padding: 50px;
 }
 
-main img {
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+}
+
+.main-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.main-text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 100;
+    color: #000000;
+}
+
+div.main-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 90;
+    color: #000000;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    display: inline-block;
+    float: center;
+    width: 50px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.social{
+    display: block;
+}
+
+.top-content {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #262626;
+    color: #F1FAEE;
+    padding: 50px;
+}
+
+.wrapper{
+    text-align: center;
+    size: 72;
+    width: 500px;
+    margin: 0 auto;
+    size: 100pt;
+}
+
+.list {
+    text-align: center;
+    size: 72;
+    width: 100px;
+    margin: 0 auto;
+    size: 100pt;
+}
+
+article{
+    background-color: #F1FAEE;
     align-content: center;
-    border-radius: 50%;
+    color: #262626;
+    padding: 50px;
+    size: 100pt;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F1FAEE;
+    background-color: #262626;
+    padding: 50px;
+    text-align: center;
 }
