@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!--meta data includes normalize CSS link-->
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
@@ -8,12 +9,14 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        
+        <!--Main logo header section-->
         <header>
             <h1>Greg Johle</h1>
             <h2>Software Developer</h2>
         </header>
-        
+        <!--included image and icon links to Github and Linkedin
+            Links open in a new tab
+        -->
         <main>      
             <img src="images/headshot-square.jpg" alt="a picture of Greg Johle holding his daughter in front of the Thomas Jefferson memorial in Washington D.C." class="center">
             <div class="main-text">    
@@ -28,7 +31,10 @@
                     <a href="https://github.com/gregjohle" target="_blank"><img src="images/github.png" width="50" alt="a small icon for Github"></a>
                 </div>    
             </div>
-            
+            <!--Top block of content
+                nested Div sections with different classes, 
+                for easier container control with CSS
+            -->
             <div class="top-content">
                 <div class="wrapper">
                     <hr>
@@ -41,7 +47,7 @@
                     <hr>
                 </div>
             </div>
-            
+            <!--Used an article container for the bottom section-->
             <article>
                 <div class="wrapper">
                 <hr>
@@ -54,11 +60,13 @@
                 <hr>
                 </div>
             </article>
-            <article class="contact">
+            <!--new article for lower content -->
+            <article>
                 <div class="wrapper">    
                     <h3>Contact Greg</h3>
                     <p>If you would like to contact me, please feel free to reach out in the following ways:</p> 
                 </div>
+                <!--used the list class to make the list numbers closer to the text.-->
                 <div class="list">    
                     <ol class="list-inside">
                         <li><a href="mailto:greg.johle@gmail.com">Email</a></li>
@@ -68,6 +76,7 @@
                 </div>
             </article>
         </main>
+        <!--footer has the copyright symbol-->
         <footer>
             <h3>&copy; Greg Johle, 2020</h3>
         </footer>

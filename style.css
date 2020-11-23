@@ -1,12 +1,14 @@
+/* this is to force border-box across the whole page*/
 * {
     box-sizing: border-box;
 }
-
+/* setting the colors, font, and sizing of the header */
 header{
     background-color: #262626;
     color: #F1FAEE;
     text-align: center;
-    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -16,8 +18,9 @@ h1 {
 
 header h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
 }
-
+/* sets a fixed background from the main section down */
 main{
    background-image: url(images/concrete.jpg);
    background-repeat: no-repeat;
@@ -25,16 +28,16 @@ main{
    background-size: cover;
    padding: 50px;
 }
-
+/* centering the image */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-radius: 100px;
+    border-radius: 50px;
 }
-
+/* Setting the position, size, and font of the text under the image */
 .main-text {
     margin-left: auto;
     margin-right: auto;
@@ -43,16 +46,16 @@ main{
 
 div.main-text h2{
     font-family: Arial, Helvetica, sans-serif;
-    size: 100;
+    font-size: 36pt;
     color: #000000;
 }
 
 div.main-text h3{
     font-family: Arial, Helvetica, sans-serif;
-    size: 90;
+    font-size: 18pt;
     color: #000000;
 }
-
+/* setting the position and spacing of the icon links */
 .row{
     display: flex;
     justify-content: center;
@@ -72,7 +75,7 @@ div.main-text h3{
 .social{
     display: block;
 }
-
+/* Setting background color, font size and color of the middle block */ 
 .top-content {
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -80,35 +83,55 @@ div.main-text h3{
     color: #F1FAEE;
     padding: 50px;
 }
-
+/* used to center text within the bottom two blocks */
 .wrapper{
     text-align: center;
-    size: 72;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
-    size: 100pt;
+    font-size: 18pt;
 }
-
+/* used to bring numbers and text closer together at the bottom of the contact section */
 .list {
     text-align: center;
-    size: 72;
+    font-size: 18pt;
     width: 100px;
     margin: 0 auto;
-    size: 100pt;
 }
-
+/* setting the background color, font, font size, font color, etc. of the About and Contact sections */
 article{
+    display: block;
     background-color: #F1FAEE;
     align-content: center;
     color: #262626;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
     size: 100pt;
 }
 
+.contact{
+    padding-top: 1px;
+}
+/* simple footer */
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F1FAEE;
     background-color: #262626;
     padding: 50px;
     text-align: center;
+}
+/* formating link colors */
+a:link{
+    color: #3587A4;
+}
+
+a:visited{
+    color: #AF7A6D;
+}
+
+a:hover{
+    color: #1E2019;
+}
+
+a:active{
+    color: #F1FAEE;
 }
