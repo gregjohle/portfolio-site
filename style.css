@@ -10,8 +10,8 @@ header{
     background-color: #262626;
     color: #F1FAEE;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 h1 {
@@ -31,7 +31,7 @@ main{
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
-   padding: 50px;
+   padding: 2%;
 }
 
 /* centering the image */
@@ -40,9 +40,9 @@ main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5%;
 }
 
 /* Setting the position, size, and font of the text under the image */
@@ -75,12 +75,12 @@ div.main-text h3{
 .column{
     display: inline-block;
     float: center;
-    width: 50px;
-    padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    width: 2%;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .social{
@@ -94,15 +94,15 @@ div.main-text h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #262626;
     color: #F1FAEE;
-    padding: 50px;
-    height: 350px;
+    padding: 2%;
+    height: 10%;
 }
 
 /* used to center text within the bottom two blocks */
 
 .wrapper{
     text-align: center;
-    width: 600px;
+    width: 30%;
     margin: 0 auto;
     font-size: 18pt;
 }
@@ -112,7 +112,7 @@ div.main-text h3{
 .list {
     text-align: center;
     font-size: 18pt;
-    width: 100px;
+    width: 10%;
     margin: 0 auto;
 }
 
@@ -123,18 +123,12 @@ article{
     background-color: #F1FAEE;
     align-content: center;
     color: #262626;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    size: 100pt;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 .contact{
     padding-top: 1px;
-}
-
-div.map p{
-    margin: 0 auto;
-    text-align: center;
 }
 
 /* simple footer */
@@ -143,7 +137,7 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F1FAEE;
     background-color: #262626;
-    padding: 50px;
+    padding: 2%;
     text-align: center;
 }
 
