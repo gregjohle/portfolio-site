@@ -74,7 +74,7 @@ div.main-text h3{
 
 .column{
     display: inline-block;
-    float: center;
+    float: none;
     width: 2%;
     padding: 1%;
     margin-left: 2%;
